@@ -1,25 +1,15 @@
 ---
-title: about
+title: About
 date: 2019-05-01 18:18:29
 ---
 
-
-
-Links:
-
-* [乐天](https://www.letiantian.me/)
-* [兔之](http://fuzhii.com/)
-* [郭靖](https://guojing.io/)
-
-
-Blogs:
-
-* [王垠](http://www.yinwang.org/)
-
-
-
-Websites:
-
-* [秘密花园](http://www.yini.org/)
-* [病孩子](http://www.sickbaby.org/)
+* 蒸汽朋克 赛博朋克
+* 相信世界是模拟的
+* 主机游戏
+* 西贡/布拉格
+* RSS
+* 传播学
+* 舞蹈
+* 严肃新闻
+* 西南联大
 

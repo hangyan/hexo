@@ -1,19 +1,35 @@
 ---
 layout: post
 title: Kubernetes 笔记
-date: 2017-08-18
-excerpt: "关于 Kubernetes 的一些零碎笔记"
-tags: [架构]
+date: 2017-08-18T00:00:00.000Z
+excerpt: 关于 Kubernetes 的一些零碎笔记
+tags:
+  - 架构
 comments: true
-
 redirect_from:
-    - /2017/08/18/kubernetes-note.html
+  - /2017/08/18/kubernetes-note.html
 ---
-
 
 
 <!-- toc -->
 
+- [API](#api)
+  * [声明式的 API](#%E5%A3%B0%E6%98%8E%E5%BC%8F%E7%9A%84-api)
+  * [API Response](#api-response)
+  * [错误处理](#%E9%94%99%E8%AF%AF%E5%A4%84%E7%90%86)
+  * [Resource Version](#resource-version)
+  * [Version](#version)
+  * [API Group](#api-group)
+  * [Runtime config](#runtime-config)
+  * [REGEX](#regex)
+  * [字段格式](#%E5%AD%97%E6%AE%B5%E6%A0%BC%E5%BC%8F)
+  * [PATCH 与 PUT](#patch-%E4%B8%8E-put)
+- [Events](#events)
+- [交互](#%E4%BA%A4%E4%BA%92)
+  * [输出](#%E8%BE%93%E5%87%BA)
+  * [输入](#%E8%BE%93%E5%85%A5)
+
+<!-- tocstop -->
 
 # API
 
@@ -245,3 +261,4 @@ status:
 ## 输入
 kubectl 支持从一个描述文件里创建一个 resource(yaml 或 json 格式).因为 API 结构的一致,kubernetes 里面几乎所有的资源都可以通过一个`kubectl create -f`来创建出来. 因为每种resource都有大体相同的结构:
 Kind,Version,Spec等等
+

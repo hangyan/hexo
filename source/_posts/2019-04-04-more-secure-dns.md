@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 更安全的 DNS
-date: 2019-04-04 20:56:03 +0800
+date: '2019-04-04 20:56:03 +0800'
 tags: 技术
 excerpt: 受信任的 DNS 解析服务器 / DoH /  QNAME minimization
 comments: true
@@ -9,6 +9,16 @@ comments: true
 
 
 <!-- toc -->
+
+- [主要问题](#%E4%B8%BB%E8%A6%81%E9%97%AE%E9%A2%98)
+- [解决方法](#%E8%A7%A3%E5%86%B3%E6%96%B9%E6%B3%95)
+  * [使用受信任的DNS解析服务器](#%E4%BD%BF%E7%94%A8%E5%8F%97%E4%BF%A1%E4%BB%BB%E7%9A%84dns%E8%A7%A3%E6%9E%90%E6%9C%8D%E5%8A%A1%E5%99%A8)
+  * [DoH](#doh)
+  * [QNAME minimization](#qname-minimization)
+- [其他问题](#%E5%85%B6%E4%BB%96%E9%97%AE%E9%A2%98)
+- [Links](#links)
+
+<!-- tocstop -->
 
 HTTPS 已经越来越普及了，包括 Github Pages 都可以很方便的集成。浏览器也开始通过各种手段来促进网站都尽量使用 HTTPS。相比来说，
 DNS 的安全性受重视的程度就没那么高。Firefox 写了一个一篇非常好的介绍文章(见最后Links)，系统性地介绍了当前的问题以及解决方案。在这里整理一下。
@@ -102,6 +112,7 @@ www.foo.bar.exmaple
 * [How to Enable DNS-over-HTTPS (DoH) in Mozilla Firefox](https://www.trishtech.com/2018/08/how-to-enable-dns-over-https-doh-in-mozilla-firefox/)
 * [DNS Query Name Minimisation to Improve Privacy](https://datatracker.ietf.org/doc/rfc7816/?include_text=1)
 * [What is SNI](https://www.thesslstore.com/blog/what-is-sni/)
+
 
 
 

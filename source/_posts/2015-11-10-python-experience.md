@@ -1,14 +1,13 @@
 ---
 layout: post
-title: "一点 python 的经验"
-modified: 2015-11-10
-tags: [language]
-
+title: 一点 python 的经验
+modified: 2015-11-10T00:00:00.000Z
+tags:
+  - language
 image:
-    feature: abstract-12.jpg
+  feature: abstract-12.jpg
 summary: 可能已经过时了。
 ---
-
 工作中总结的一些 python 的小经验，分享一下~
 
 ## 返回值
@@ -243,6 +242,7 @@ class SplitColoredFormatter(ColoredFormatter):
 [1]: http://hangyan.github.io/images/posts/python/experience/log-var.png "log-var"
 [2]: https://camo.githubusercontent.com/b9d0e424bfc6378e79b90de33b983ef5bae2f578/687474703a2f2f692e696d6775722e636f6d2f505937714d77642e706e67 'logrus'
 [3]: http://hangyan.github.io/images/posts/python/experience/log-color.png "log-color"
+
 
 
 

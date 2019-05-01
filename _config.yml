@@ -90,3 +90,14 @@ feed:
   type: atom
   path: atom.xml
   limit: 20
+
+
+toc:
+  maxdepth: 3
+  class: toc
+  slugify: transliteration
+  decodeEntities: false
+  anchor:
+    position: after
+    symbol: '#'
+    style: header-anchor

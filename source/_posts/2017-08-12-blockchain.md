@@ -1,17 +1,30 @@
 ---
 layout: post
-title: "Blockchain"
-date: 2017-08-12 16:52
-tags: [blockchain]
-excerpt: "比特币,区块链"
+title: Blockchain
+date: '2017-08-12 16:52'
+tags:
+  - blockchain
+excerpt: '比特币,区块链'
 comments: true
-
 redirect_from:
-    - /2017/08/12/blockchain.html
+  - /2017/08/12/blockchain.html
 ---
 
 
 <!-- toc -->
+
+- [介绍](#%E4%BB%8B%E7%BB%8D)
+- [区块结构](#%E5%8C%BA%E5%9D%97%E7%BB%93%E6%9E%84)
+  * [头结构](#%E5%A4%B4%E7%BB%93%E6%9E%84)
+  * [区块结构](#%E5%8C%BA%E5%9D%97%E7%BB%93%E6%9E%84-1)
+  * [创世区块](#%E5%88%9B%E4%B8%96%E5%8C%BA%E5%9D%97)
+  * [分叉](#%E5%88%86%E5%8F%89)
+- [Proof-of-work(工作量证明)](#proof-of-work%E5%B7%A5%E4%BD%9C%E9%87%8F%E8%AF%81%E6%98%8E)
+  * [邮件 Header](#%E9%82%AE%E4%BB%B6-header)
+  * [Bitcoin](#bitcoin)
+- [REF](#ref)
+
+<!-- tocstop -->
 
 # 介绍
 
@@ -139,3 +152,4 @@ echo -n 1:52:380119:calvin@comics.net:::9B760005E92F0DAE | openssl sha1
 
 1. [Wiki](https://en.wikipedia.org/wiki/Blockchain)
 2. [Hashcash](https://en.wikipedia.org/wiki/Hashcash)
+
