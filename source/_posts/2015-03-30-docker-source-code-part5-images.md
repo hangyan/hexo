@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: docker 源码分析(5) -- 镜像拉取及存储
 date: 2015-03-30 21:37:39 +0800
 tags: [docker]

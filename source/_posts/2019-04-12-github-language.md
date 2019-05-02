@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Github 与编程语言
 date: 2019-04-12 15:22:54 +0800
 tags: 技术随笔

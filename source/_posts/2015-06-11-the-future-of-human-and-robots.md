@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 人类和机器人的未来
 
 tags: [社会学]

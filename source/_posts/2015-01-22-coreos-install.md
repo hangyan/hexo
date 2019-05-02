@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: CoreOS 安装及配置
 share: true
 comments: true

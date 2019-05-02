@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: bash各配置文件浅析
 tags: [技术]
 imagefeature:

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 小米之恶
 date: 2019-03-17 21:34:44 +0800
 tags: 互联网

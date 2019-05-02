@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: docker 源码分析(3) -- daemon 启动流程
 tags: [docker]
 imagefeature:

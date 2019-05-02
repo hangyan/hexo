@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: docker 容器内多进程的管理方案
 
 tags: [docker]

@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: docker 源码分析(1) -- 开发环境准备
 tags: [docker]
 imagefeature:

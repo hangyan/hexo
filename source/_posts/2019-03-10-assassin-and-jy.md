@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: 刺客信条与金庸武侠
 date: 2019-03-10
 tags: 游戏

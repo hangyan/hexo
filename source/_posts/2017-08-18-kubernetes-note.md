@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: Kubernetes 笔记
 date: 2017-08-18T00:00:00.000Z
 excerpt: 关于 Kubernetes 的一些零碎笔记

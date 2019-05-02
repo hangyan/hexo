@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: The useless web
 date: 2019-04-10 18:41:54 +0800
 tags: 互联网

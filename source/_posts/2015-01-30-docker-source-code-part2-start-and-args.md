@@ -1,5 +1,5 @@
 ---
-layout: post
+
 title: docker 源码分析(2) -- 主程序及命令行参数解析
 tags: [docker]
 imagefeature:
