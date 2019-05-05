@@ -1,7 +1,10 @@
 ---
 title: About
 date: 2019-05-01 18:18:29
+type: "about"
+layout: "about"
 ---
+
 
 * 蒸汽朋克 赛博朋克
 * 相信世界是模拟的
