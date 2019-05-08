@@ -1,18 +1,18 @@
 ---
-
-title: bash各配置文件浅析
+categories: 技术
+title: bash 各配置文件浅析
 tags: [技术]
 imagefeature:
 comments: true
 share: true
-excerpt: "bash配置文件浅析"
+excerpt: "bash 配置文件浅析"
 thumb: /images/thumbs/bash.jpg
 ---
 
 
-与bash相关的配置文件非常之多,用户目录下的`.bashrc`,`.profile`,`.bash_profile`，
+与 bash 相关的配置文件非常之多,用户目录下的`.bashrc`,`.profile`,`.bash_profile`，
 系统级的`/etc/profile`等。我们也经常会发现，在某个文件里设置好了环境变量之后，并
-不能总是能在使用bash时正确加载。下面将对这个问题进行深入剖析，以解除疑惑。
+不能总是能在使用 bash 时正确加载。下面将对这个问题进行深入剖析，以解除疑惑。
 <!--more-->
 
 ### login shell 与 non-login shell
@@ -27,7 +27,7 @@ thumb: /images/thumbs/bash.jpg
 2. non-login shell
 
     `non-login shell`是指在登入系统之后打开的 shell,比如在桌面系统启动后打开的
-    terminal,或者是在 bash内部再次输入 bash打开的shell.
+    terminal,或者是在 bash 内部再次输入 bash 打开的 shell.
 
 其实二者有一个很简单的判定方法，在命令提示符下输入 `ps -f` 查看结果，示例 :
 
@@ -59,7 +59,7 @@ thumb: /images/thumbs/bash.jpg
 3. `~/.bashr_login`
 4. `~/.profile`
 
-    2，3，4按顺序寻找，找到第一个存在并且可读的加载。在`ubuntu`上，一般默认只有
+    2，3，4 按顺序寻找，找到第一个存在并且可读的加载。在`ubuntu`上，一般默认只有
     `.profile`存在，并且里面加载了`.bashrc`;在`slackware`上，三个都不存在;在
     `coreos`上，只有`.bash_profile`
 
@@ -72,7 +72,7 @@ thumb: /images/thumbs/bash.jpg
 
 ### 总结
 为了统一配置文件的加载，方便用户，很多发行版都会在这些配置文件中互相调用其他的文
-件，以便用户的设置在两种shell中都能得到执行。比如`ubuntu`,在 `login shell`的设置
+件，以便用户的设置在两种 shell 中都能得到执行。比如`ubuntu`,在 `login shell`的设置
 中将 `non-login shell`的设置都加载了。但最好还是能够清楚地区分其中的区别。
 
 

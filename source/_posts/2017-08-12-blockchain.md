@@ -1,5 +1,5 @@
 ---
-
+categories: 技术
 title: Blockchain
 date: '2017-08-12 16:52'
 tags:

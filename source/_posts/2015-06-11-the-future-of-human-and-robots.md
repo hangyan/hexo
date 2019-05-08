@@ -1,7 +1,7 @@
 ---
 
 title: 人类和机器人的未来
-
+categories: 社会学
 tags: [社会学]
 imagefeature:
 comments: true
