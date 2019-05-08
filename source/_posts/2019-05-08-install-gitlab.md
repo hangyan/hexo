@@ -281,6 +281,14 @@ reclaimPolicy: Retain
 ```
 
 
+#### 页面
+
+Rook 自带了一个 UI，我们可以通过 Ingress 配置的地址来访问和管理 Ceph 集群:
+
+![](/images/gitlab-install/ceph.png)
+
+
+
 ### 安装 Cert Manager
 我们后面需要通过 HTTPS 访问 Gitlab/Rook 等，Cert Manager 与 Ingress 一起提供这个功能。
 
@@ -335,11 +343,6 @@ metadata:
 
 中间的`<you-email>`需要替换成具体的 Email。
 
-#### 页面
-
-Rook 自带了一个 UI，我们可以通过 Ingress 配置的地址来访问和管理 Ceph 集群:
-
-![](/images/gitlab-install/ceph.png)
 
 
 
