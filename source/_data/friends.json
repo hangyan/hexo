@@ -11,5 +11,23 @@
     "url": "http://fuzhii.com/",
     "title": "兔之 Blog",
     "avatar":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Creative-Tail-People-man-2.svg/128px-Creative-Tail-People-man-2.svg.png"
+  },
+  {
+    "name": "郭靖",
+    "url": "https://guojing.io/",
+    "title": "郭靖 I/O",
+    "avatar":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Creative-Tail-People-man-2.svg/128px-Creative-Tail-People-man-2.svg.png"
+  },
+  {
+    "name": "王垠",
+    "url": "http://www.yinwang.org/",
+    "title": "当然我在扯淡",
+     "avatar":  "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Creative-Tail-People-man-2.svg/128px-Creative-Tail-People-man-2.svg.png"
+  },
+  {
+    "name": "旖旎",
+    "url": "http://www.yini.org/",
+    "title": "秘密花园",
+    "avatar": "http://www.yini.org/club/new/garden_pic.jpe"
   }
 ]
