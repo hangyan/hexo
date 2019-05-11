@@ -1,8 +1,10 @@
 ---
 title: {{ title }}
-date: {{ date }}
+date:  {{ date }}
+toc: true
+summary:
+categories:
 tags:
-excerpt:
+  -
+  -
 ---
-
-<!-- toc -->
