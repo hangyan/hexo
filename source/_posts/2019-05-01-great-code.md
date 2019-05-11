@@ -2,6 +2,7 @@
 title: 如何防止代码变成 SHIT
 date: 2019-05-01 19:03:04
 tags: [技术随笔]
+categories: 技术
 excerpt: 你看天上那朵云，像不像我们写的智障代码
 ---
 

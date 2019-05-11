@@ -1,7 +1,7 @@
 ---
 
 title: docker 源码分析(6) -- 镜像删除
-
+categories: 技术
 tags: [docker]
 imagefeature:
 comments: true

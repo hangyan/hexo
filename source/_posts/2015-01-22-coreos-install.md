@@ -6,6 +6,7 @@ comments: true
 imagefeature:
 tags: [技术]
 excerpt: ""
+categories: 技术
 thumb: /images/thumbs/coreos.png
 ---
 

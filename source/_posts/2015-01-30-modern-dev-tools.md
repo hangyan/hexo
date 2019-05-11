@@ -1,7 +1,7 @@
 ---
-
 title: 现代化的开发人员实用工具
-tags: [技术]
+tags: [工具]
+categories: 技术
 imagefeature:
 comments: true
 share: true
@@ -9,7 +9,7 @@ excerpt: "httpi/icdiff/slap..."
 thumb: /images/thumbs/gource.jpg
 ---
 
-常年混迹于linux，对命令行程序情有独钟，平时也喜欢搜集各种实用的小工具。`github`流行以来，越来越多的新的实用的开
+常年混迹于 linux，对命令行程序情有独钟，平时也喜欢搜集各种实用的小工具。`github`流行以来，越来越多的新的实用的开
 发工具开源出来，有的可以用来替代一些老的工具，有的则是全新的。本文整理一些实用的
 工具，希望大家能在实际开发中用到。
 <!--more-->
@@ -17,14 +17,14 @@ thumb: /images/thumbs/gource.jpg
 # httppie
 [website](http://httpie.org/) / [github](https://github.com/jakubroztocil/httpie)
 
-一个命令行版的`http`客户端,`github`上的star数已经超过13000。可以用非常自然的语法来发
-送http请求，并且彩色化输出结果。可以用来测试，调试，与`web server`交互等。官网上
+一个命令行版的`http`客户端,`github`上的 star 数已经超过 13000。可以用非常自然的语法来发
+送 http 请求，并且彩色化输出结果。可以用来测试，调试，与`web server`交互等。官网上
 有详细的文档以及示例，很容易上手.
 
 ![ ][1]
 
 
-在用docker的时候用`httpie`代替`curl`与`web server`交互就非常方便,比如搜索镜像,用`curl`:
+在用 docker 的时候用`httpie`代替`curl`与`web server`交互就非常方便,比如搜索镜像,用`curl`:
 
 ![ ][2]
 
@@ -47,11 +47,11 @@ thumb: /images/thumbs/gource.jpg
 
 ![ ][5]
 
-VS前项目经理开发的新一代IDE : [Light Table](https://github.com/LightTable/LightTable)。
+VS 前项目经理开发的新一代 IDE : [Light Table](https://github.com/LightTable/LightTable)。
 
 ![ ][21]
 
-Github发布的 [Atom](https://github.com/atom/atom) :
+Github 发布的 [Atom](https://github.com/atom/atom) :
 
 ![ ][22]
 
@@ -78,7 +78,7 @@ Github发布的 [Atom](https://github.com/atom/atom) :
 # gource
 [website](https://code.google.com/p/gource/)
 
-打不开的话，`github`的fork地址为: [https://github.com/acaudwell/Gource](https://github.com/acaudwell/Gource)。
+打不开的话，`github`的 fork 地址为: [https://github.com/acaudwell/Gource](https://github.com/acaudwell/Gource)。
 
 Software version control visualization。可视化代码提交历史，可以用于各种分布式代
 码管理系统。
@@ -93,9 +93,9 @@ Software version control visualization。可视化代码提交历史，可以用
 # finalterm
 [website](http://finalterm.org/) / [github](https://github.com/p-e-w/finalterm)
 
-是一个terminal工具，linux上的terminal工具多如牛毛，常见的有KDE的`konsole`,GNOME
-的`gnome-terminal`，XFCE的`Terminal`,以及古老但非常强大的`xterm`，`urxvt`。这个
-算起来是较新的一个,UI不错。
+是一个 terminal 工具，linux 上的 terminal 工具多如牛毛，常见的有 KDE 的`konsole`,GNOME
+的`gnome-terminal`，XFCE 的`Terminal`,以及古老但非常强大的`xterm`，`urxvt`。这个
+算起来是较新的一个,UI 不错。
 
 ![ ][9]
 
@@ -115,18 +115,18 @@ Software version control visualization。可视化代码提交历史，可以用
 
 [website](http://harelba.github.io/q/) / [github](https://github.com/harelba/q)
 
-在CSV或者TSV文件上执行SQL查询。
+在 CSV 或者 TSV 文件上执行 SQL 查询。
 
 ![ ][12]
 
-[textql](https://github.com/dinedal/textql),功能类似，golang写的:
+[textql](https://github.com/dinedal/textql),功能类似，golang 写的:
 
 ![ ][13]
 
 # ranger
 [website](http://ranger.nongnu.org/) / [github](https://github.com/hut/ranger)
 
-比较老的一个软件了，命令行下的文件管理器,类似VI的键绑定。可扩展性很强，支持很多
+比较老的一个软件了，命令行下的文件管理器,类似 VI 的键绑定。可扩展性很强，支持很多
 种文件类型的预览。
 
 ![ ][14]
@@ -135,7 +135,7 @@ Software version control visualization。可视化代码提交历史，可以用
 # cv
 [github](https://github.com/Xfennec/cv)
 
-显示cp,rm,dd...等命令的进展：
+显示 cp,rm,dd...等命令的进展：
 
 ![ ][15]
 
@@ -143,15 +143,15 @@ Software version control visualization。可视化代码提交历史，可以用
 # oh-my-zsh
 [website](http://ohmyz.sh/) / [github](https://github.com/robbyrussell/oh-my-zsh)
 
-zsh的配置文件，在github上的star数超过21000，可想而知它是多么的火。作为bash的替代
-品,`zsh`提供了极强的可扩展能力。智能的自动补全，历史命令查询复用,丰富的PS1定制……
+zsh 的配置文件，在 github 上的 star 数超过 21000，可想而知它是多么的火。作为 bash 的替代
+品,`zsh`提供了极强的可扩展能力。智能的自动补全，历史命令查询复用,丰富的 PS1 定制……
 通过一些简单的配置，能够大幅度提高你的工作效率。
 
 
 ![ ][16]
 
 另一个优秀的`bash`替代品是
-[fish-shell](https://github.com/fish-shell/fish-shell),相对于zsh的优点是无需配置
+[fish-shell](https://github.com/fish-shell/fish-shell),相对于 zsh 的优点是无需配置
 便提供了非常丰富的功能:
 
 ![ ][17]
@@ -160,7 +160,7 @@ zsh的配置文件，在github上的star数超过21000，可想而知它是多�
 # babun
 [github](https://github.com/babun/babun)
 
-windows下的一个非常优秀的`terminal`工具。
+windows 下的一个非常优秀的`terminal`工具。
 
 ![ ][18]
 
@@ -168,7 +168,7 @@ windows下的一个非常优秀的`terminal`工具。
 # impress.js
 [website](http://bartaz.github.io/impress.js/#/bored) / [github](https://github.com/bartaz/impress.js)
 
-github上star数目最多的列表中第一页就可以看到，用来做非常酷炫的PPT.Demo链接 :[Demo](http://bartaz.github.io/impress.js/#/bored)
+github 上 star 数目最多的列表中第一页就可以看到，用来做非常酷炫的 PPT.Demo 链接 :[Demo](http://bartaz.github.io/impress.js/#/bored)
 
 ![ ][20]
 
@@ -176,7 +176,7 @@ github上star数目最多的列表中第一页就可以看到，用来做非常�
 # ungit
 [github](https://github.com/FredrikNoren/ungit)
 
-使用git的便捷工具,有非常漂亮的UI，github集成。
+使用 git 的便捷工具,有非常漂亮的 UI，github 集成。
 
 ![ ][23]
 

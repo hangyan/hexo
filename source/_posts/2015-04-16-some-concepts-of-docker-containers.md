@@ -1,5 +1,5 @@
 ---
-
+categories: 技术
 title: docker 容器的一些概念辨析
 tags: [docker]
 imagefeature:

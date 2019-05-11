@@ -1,5 +1,5 @@
 ---
-
+categories: 技术
 title: Kubernetes 笔记
 date: 2017-08-18T00:00:00.000Z
 excerpt: 关于 Kubernetes 的一些零碎笔记
@@ -259,6 +259,6 @@ status:
 
 
 ## 输入
-kubectl 支持从一个描述文件里创建一个 resource(yaml 或 json 格式).因为 API 结构的一致,kubernetes 里面几乎所有的资源都可以通过一个`kubectl create -f`来创建出来. 因为每种resource都有大体相同的结构:
-Kind,Version,Spec等等
+kubectl 支持从一个描述文件里创建一个 resource(yaml 或 json 格式).因为 API 结构的一致,kubernetes 里面几乎所有的资源都可以通过一个`kubectl create -f`来创建出来. 因为每种 resource 都有大体相同的结构:
+Kind,Version,Spec 等等
 
