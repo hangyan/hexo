@@ -2,7 +2,7 @@
 title: 在 Gitlab 中使用 Danger
 toc: true
 tags:
-  - 软件
+  - 工具
   - CI/CD
   - Gitlab
 date: 2019-05-07 23:23:52

@@ -5,8 +5,8 @@ categories: 技术
 date: 2019-05-08 13:36:33
 summary: 一个详细的安装使用文档
 tags:
-    - gitlab
-    - kubernetes
+    - Gitlab
+    - Kubernetes
 ---
 
 现在很少写这种安装类的博客了。之前在公司部署了一个 Gitlab 作为日常使用，因为步骤比较繁琐。在此把零零散散的资料汇聚一下，记录一个比较完整的安装过程
