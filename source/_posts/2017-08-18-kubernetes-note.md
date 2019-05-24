@@ -5,6 +5,7 @@ date: 2017-08-18T00:00:00.000Z
 excerpt: 关于 Kubernetes 的一些零碎笔记
 tags:
   - 架构
+  - Kubernetes
 comments: true
 redirect_from:
   - /2017/08/18/kubernetes-note.html
