@@ -6,7 +6,7 @@ tags:
   - CI/CD
   - Gitlab
 date: 2019-05-07 23:23:52
-summary: 通过 Danger 扩充 Gitlab 的 CI/CD 功能
+excerpt: 通过 Danger 扩充 Gitlab 的 CI/CD 功能
 categories: 技术
 ---
 

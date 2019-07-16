@@ -3,13 +3,15 @@ title: 代码与注释
 toc: true
 categories: 技术
 date: 2019-07-14 21:14:49
-summary:
+excerpt: lierateing programming 
 tags: [编程]
 ---
 
+<!-- toc -->
+
 代码应该拥有良好的注释一直是业界共识，毕竟，在可预见的未来里，阅读代码的主要还是人。所有的语言都支持注释，有的拥有额外的注释提取工具及格式规范。但总体来说，大部分语言在这块做的都比较一般。Python有一些约定俗称的规范以及 Sphinx 这样的工具， Golang 的规范比较简单，但内置了 godoc 工具。Lisp 算是做的比较好的，示例如下：
 
-```commonlisp
+```lisp
 (defun small-prime-number-p (n)
   "Return T if N, an integer, is a prime number. Otherwise, return NIL."
   (cond ((or (< n 2))
@@ -31,7 +33,7 @@ tags: [编程]
 
 Golang 虽然 在注释方面做的普通，但是在官方 library 以及最佳实践方面成功地鼓励了人们尽可能地写非常详细的注释，具体到一个 struct 的各个字段上。尤其是在 kubernetes 社区里面,  其[Space Shuttle style](https://news.ycombinator.com/item?id=18772873) 的 Code 对于社区的蓬勃发展可以说是一个极大的背后功臣，从如下的代码便可一窥其风格：
 
-```golang
+```go
 // Adapts a ConfigMap into a projected volume.
 //
 // The contents of the target ConfigMap's Data field will be presented in a

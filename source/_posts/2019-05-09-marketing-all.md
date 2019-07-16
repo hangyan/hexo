@@ -3,7 +3,7 @@ title: 营销改变了什么
 toc: true
 categories: 商业
 date: 2019-05-09 17:28:18
-summary: 为什么小米如此面目可憎
+excerpt: 为什么小米如此面目可憎
 tags:
  - 营销
 ---
