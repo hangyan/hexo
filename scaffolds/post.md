@@ -2,7 +2,7 @@
 title: {{ title }}
 date:  {{ date }}
 toc: true
-summary:
+excerpt:
 tags:
 categories: 技术
 ---
