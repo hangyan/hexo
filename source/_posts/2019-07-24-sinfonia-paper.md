@@ -144,7 +144,7 @@ recovery coordinator 会循环执行，读取 Memory Node 的记录，从 `in-do
 
 
 
-`forced-abort` list 的回收要复杂些。因为 Sinfonia 允许 origin 和 recovery 两个 coordinator 同时运行。如果直接回收，会导致正在运行的 coordinator 出错(它仍想处理这个 transcation)。 Sinfornia 加了一个 `epoch number` 来处理这种情况。epoch number 与时间相关，由participants 定义并返回给 coordinator。每个 transcation 都与一个 `epoch number` 绑定。partipants 可以拒绝` stale` 的 epoch（大于等于两个 epoch 的差距）。那么 `forced-abort` 中早期的 trancations 都可以被回收掉，因为如果要充实肯定会被 abort 掉。 
+`forced-abort` list 的回收要复杂些。因为 Sinfonia 允许 origin 和 recovery 两个 coordinator 同时运行。如果直接回收，会导致正在运行的 coordinator 出错(它仍想处理这个 transcation)。 Sinfornia 加了一个 `epoch number` 来处理这种情况。epoch number 与时间相关，由participants 定义并返回给 coordinator。每个 transcation 都与一个 `epoch number` 绑定。partipants 可以拒绝` stale` 的 epoch（大于等于两个 epoch 的差距）。那么 `forced-abort` 中早期的 trancations 都可以被回收掉，因为如果要重试肯定会被 abort 掉。 
 
 
 
