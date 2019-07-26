@@ -154,7 +154,9 @@ transication -> redo-log -> disk-image -> backup 。当然 disk-image 只会更�
 
 
 
+## 评论
 
+这个论文引用次数还挺多。但是感觉设计的还是挺零碎的，一些核心概念可以借鉴，但作为一个整体还是感觉不太可靠。另外，不是很懂它是如何做到小部分 Memory Node 不可用时仍然保证系统可用的?
 
 
 
