@@ -146,6 +146,8 @@ spec:
 
 This list can go on and go on, different users may suffer from different issues. The helm3 proposal seems quite promising, and it brought a lot of new awesome features, and we are very looking forward to it to become production ready.
 
+Again, weclome to check the [captain](https://github.com/alauda/captain) project out, all suggestions and PRs are welcome.
+
 ## Links
 
 1. [Helm Glossary](https://helm.sh/docs/glossary/)
