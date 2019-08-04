@@ -93,7 +93,7 @@ We have encountered this problem once, we don't know what to do. We have to dele
 
 Helm also provide an alternative solution: put all your CRDs in a single chart. Install it first, and then install other charts later. This actually is not helpful in many circumstances. Usually wen we hit this problem, we already have a first version of the charts's structure. If we move the crds around, we will have to do a upgrade(migration), again, either the upgrade failed, or the same resource conflicts problem occurs as described above.
 
-In `captain`, since we choose an `apply` logic when create/update resource , non of this will happens again.
+In `captain`, since we choose an `apply` logic when create/update resource , none of this will happens again.
 
 
 
