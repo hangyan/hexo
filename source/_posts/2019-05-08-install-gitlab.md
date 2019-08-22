@@ -9,6 +9,10 @@ tags:
     - Kubernetes
 ---
 
+<!-- toc -->
+
+
+
 现在很少写这种安装类的博客了。之前在公司部署了一个 Gitlab 作为日常使用，因为步骤比较繁琐。在此把零零散散的资料汇聚一下，记录一个比较完整的安装过程
 
 
@@ -444,7 +448,7 @@ cat >> /etc/gitlab-runner/config.toml << EOF
 这个是通过修改 configmaps/gitlab/gitlab-gitlab-runner 实现:
 
 ![](/images/gitlab-install/gitlab-runner-config.png)
- 
+
  
 
 
