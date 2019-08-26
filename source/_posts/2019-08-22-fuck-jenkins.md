@@ -4,7 +4,7 @@ toc: true
 categories: 技术
 date: 2019-08-22 17:02:37
 excerpt: ...
-tags: [Jenkins, CI/CD，架构]
+tags: [Jenkins,CI/CD,架构]
 ---
 
 我想记录一下工作中使用过的软件里的一些在设计上比较失败的。因为它们，工作中多了很多痛苦。
