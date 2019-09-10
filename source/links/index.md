@@ -9,6 +9,8 @@ Friends:
 * [乐天](https://www.letiantian.me/)
 * [兔之](http://fuzhii.com/)
 * [郭靖](https://guojing.io/)
+* [小司](http://sinb.github.io/)
+* [阿飞](http://kangkona.github.io/)
 
 
 Blogs:
