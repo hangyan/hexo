@@ -1,5 +1,7 @@
 ---
 title: About
-layout: about
+layout: page
+comments: false
 ---
 
+无话可说
