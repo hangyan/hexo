@@ -25,6 +25,14 @@ cnpm install
 
 ```
 
+## usage
+
+```bash
+# deploy
+hexo deploy -g
+```
+
+
 ## issues on mac
 
 * `xcode-select` ...
