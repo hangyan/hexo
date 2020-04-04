@@ -1,6 +1,5 @@
 ---
 title: "Linux 桌面的失败"
-toc: true
 excerpt: ...
 categories: 杂谈
 date: 2020-04-04 21:29:54
