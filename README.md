@@ -5,7 +5,7 @@
 
 ```bash
 sudo cnpm install -g hexo-cli
-sudo cnpm install hexo --save
+@ sudo cnpm install hexo --save
 ```
 
 ## theme
@@ -14,14 +14,15 @@ sudo cnpm install hexo --save
 git clone git@github.com:hangyan/maupassant-hexo.git themes/maupassant
 
 
-
-npm install hexo-renderer-pug --save
-npm install hexo-renderer-sass --save
-cnpm install hexo-render-pug --save
-cnpm install hexo-server --save
+# npm install hexo-renderer-pug --save
+# npm install hexo-renderer-sass --save
+# cnpm install hexo-render-pug --save
+# cnpm install hexo-server --save
 
 ## most import one
 cnpm install
+
+cnpm install hexo-toc --save
 
 ```
 
