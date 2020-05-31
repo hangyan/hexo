@@ -11,7 +11,7 @@ sudo cnpm install -g hexo-cli
 ## theme
 
 ``` bash
-git clone git@github.com:hangyan/maupassant-hexo.git themes/maupassant
+ git clone https://github.com/xiangming/landscape-plus.git themes/landscape-plus
 
 
 # npm install hexo-renderer-pug --save
@@ -21,7 +21,7 @@ git clone git@github.com:hangyan/maupassant-hexo.git themes/maupassant
 
 ## most import one
 cnpm install
-
+cnpm install node-sass
 cnpm install hexo-toc --save
 
 ```
