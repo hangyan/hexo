@@ -80,21 +80,27 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: artemis
+
+theme: cactus
 
 theme_config:
-  logo:
-  disqus: https-yanhang-me
+  disqus:
+    enabled: true
+    shortname: https-yanhang-me
   copyright:
-    since: 2020
-    name: Hang Yan
-    url: https://www.example.org/john-doe
-  menu:
+    start_year: 2013
+  nav:
     Home: /
     About: /about
     Archives: /archives
     GitHub: https://github.com/hangyan
     RSS: /atom.xml
+  social_links:
+    github: http://github.com/hangyan
+    twitter: /
+    facebook: /
+    linkedin: /
+    mail: mailto:hang.yan@hotmail.com
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
