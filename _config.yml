@@ -84,6 +84,7 @@ pagination_dir: page
 theme: cactus
 
 theme_config:
+  colorscheme: white
   disqus:
     enabled: true
     shortname: https-yanhang-me
